@@ -9,7 +9,7 @@ const Product = ({product, getProducts }) => {
 
   const deleteProduct = async(id) => {
     const result = await Swal.fire({
-      title: "Do you want to delete the character?",
+      title: "Do you want to delete this character?",
       icon: "warning",
       showCancelButton: true,
       confirmButtonText: "Yes",
