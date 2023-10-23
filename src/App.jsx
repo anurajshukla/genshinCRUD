@@ -15,7 +15,7 @@ function App() {
             <Link to="/create" className='shadow-md bg-blue-400 text-white rounded-sm px-4 py-2 font-bold hover:bg-blue-500 hover:cursor-pointer'> Add character </Link>
           </div>
         </nav>
-
+        {/* created routes */}
         <div className="container mx-auto p-2 h-full">
           <Routes>
             <Route index element={<Home />}></Route>
